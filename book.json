@@ -1,0 +1,52 @@
+{
+  "title": "鏡像歷史：一本給台灣人的比特幣貨幣史入門",
+  "description": "一本給台灣人的比特幣貨幣史入門",
+  "author": "大齡工程師",
+  "language": "zh-tw",
+  "structure": {
+    "readme": "README.md",
+    "summary": "SUMMARY.md"
+  },
+  "plugins": [
+    "highlight",
+    "search",
+    "sharing",
+    "fontsettings",
+    "theme-default",
+    "-lunr",
+    "-search",
+    "search-pro"
+  ],
+  "pluginsConfig": {
+    "theme-default": {
+      "showLevel": false
+    },
+    "fontsettings": {
+      "theme": "white",
+      "family": "sans",
+      "size": 2
+    },
+    "sharing": {
+      "facebook": true,
+      "twitter": true,
+      "google": false,
+      "weibo": false,
+      "instapaper": false,
+      "vk": false,
+      "all": [
+        "facebook", "twitter", "linkedin", "weibo", "instapaper"
+      ]
+    }
+  },
+  "pdf": {
+    "pageNumbers": true,
+    "fontSize": 12,
+    "paperSize": "a4",
+    "margin": {
+      "right": 62,
+      "left": 62,
+      "top": 56,
+      "bottom": 56
+    }
+  }
+}
